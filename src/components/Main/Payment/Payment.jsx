@@ -2,6 +2,7 @@ import { Component } from "react";
 import styles from "./payment.module.css";
 import clsx from "clsx";
 import Container from "../../Container";
+import payment from '@/assets/img/payment.png';
 
 export default class Payment extends Component {
   render() {
@@ -9,7 +10,7 @@ export default class Payment extends Component {
       <section className={clsx(styles.payment)}>
         <Container className={clsx(styles.paymentContent)}>
           <img
-            src="/src/img/payment.png"
+            src={payment}
             alt="payment"
             className={clsx(styles.paymentImg)}
           />

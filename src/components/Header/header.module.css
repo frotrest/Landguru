@@ -1,5 +1,5 @@
 .header {
-  background: url("../../img/bg.png") no-repeat center / cover;
+  background: url("@/assets/img/bg.png") no-repeat center / cover;
 }
 
 .headerContent {

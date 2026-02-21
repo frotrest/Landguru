@@ -4,6 +4,7 @@ import clsx from "clsx";
 import Container from "../../Container";
 import { BsFillBagCheckFill } from "react-icons/bs";
 import { FaChessKing } from "react-icons/fa";
+import results from '@/assets/img/results.png'
 
 export default class Results extends Component {
   render() {
@@ -11,7 +12,7 @@ export default class Results extends Component {
       <section className={clsx(styles.results)}>
         <Container className={clsx(styles.resultsContent)}>
           <img
-            src="/src/img/results.png"
+            src={results}
             alt="results"
             className={clsx(styles.resultsContentImg)}
           />

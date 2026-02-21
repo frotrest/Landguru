@@ -9,27 +9,31 @@ import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import { FaStar } from "react-icons/fa6";
 import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
+import customerOne from '@/assets/img/first-customer.png';
+import customerTwo from '@/assets/img/second-customer.png';
+import customerThird from '@/assets/img/third-customer.png';
+import customerFourth from '@/assets/img/fourth-customer.png';
 
 const customers = [
   {
     stars: 3,
     title: "Modern look & trending design",
-    avatar: "/src/img/first-customer.png",
+    avatar: customerOne,
   },
   {
     stars: 4,
     title: "Design Quality & performance",
-    avatar: "/src/img/second-customer.png",
+    avatar: customerTwo,
   },
   {
     stars: 5,
     title: "Layout and organized layers",
-    avatar: "/src/img/third-customer.png",
+    avatar: customerThird,
   },
   {
     stars: 4,
     title: "Modern look & trending design",
-    avatar: "/src/img/fourth-customer.png",
+    avatar: customerFourth,
   },
 ];
 

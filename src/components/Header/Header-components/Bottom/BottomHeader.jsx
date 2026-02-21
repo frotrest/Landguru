@@ -3,6 +3,7 @@ import Container from "../../../Container";
 import styles from "./bottomheader.module.css";
 import clsx from "clsx";
 import Hero from "./BottomHeaderComponents/Hero";
+import sponsor from '@/assets/img/sponsor.png';
 
 export default class BottomHeader extends Component {
   render() {
@@ -11,7 +12,7 @@ export default class BottomHeader extends Component {
         <Container className={clsx(styles.heroSectionContent)}>
           <Hero />
           <img
-            src="/src/img/sponsor.png"
+            src={sponsor}
             alt="sponsor"
             className={clsx(styles.sponsors)}
           />

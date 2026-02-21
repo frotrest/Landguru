@@ -1,6 +1,6 @@
 .results {
   padding-top: 200px;
-  background: url("/src/img/bg-pattern.png") no-repeat left 300px / cover;
+  background: url("@/assets/img/bg-pattern.png") no-repeat left 300px / cover;
 }
 
 .resultsContent {
