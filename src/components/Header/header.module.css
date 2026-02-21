@@ -1,0 +1,9 @@
+.header {
+  background: url("../../img/bg.png") no-repeat center / cover;
+}
+
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

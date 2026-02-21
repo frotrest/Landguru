@@ -1,0 +1,97 @@
+.heroSection {
+  padding-top: 110px;
+  padding-bottom: 205px;
+}
+
+.heroSectionContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heroDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.heroDescriptionTitle {
+  color: rgba(255, 255, 255, 1);
+  font-family: "DM Sans";
+  font-style: Bold;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: -2px;
+  width: 642px;
+}
+
+.heroDescriptionItem {
+  color: rgba(255, 255, 255, 1);
+  font-family: "DM Sans";
+  font-style: Medium;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0px;
+  width: 507px;
+}
+
+.heroDescriptionBtns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.heroDescriptionBtnsItem {
+  border: 1.5px solid rgba(255, 255, 255, 1);
+  border-radius: 50px;
+  padding: 12px 30px;
+  background: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: "DM Sans";
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.16px;
+  transition:
+    color 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.heroDescriptionBtnsItem:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.heroDescriptionBtnsVideo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Poppins";
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.16px;
+  text-decoration: none;
+}
+
+.heroImg {
+  transition: transform 0.3s ease;
+}
+
+.heroImg:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+}

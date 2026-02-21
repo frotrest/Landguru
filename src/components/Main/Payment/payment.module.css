@@ -1,0 +1,66 @@
+.payment {
+  margin-top: 140px;
+  padding-top: 130px;
+  background: url("/src/img/bg-payment.png") no-repeat right / auto;
+}
+
+.paymentContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paymentText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.paymentTextPodTitle {
+  color: rgba(36, 72, 134, 1);
+  font-family: "DM Sans";
+  font-style: Bold;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+}
+
+.paymentTextTitle {
+  color: rgba(15, 33, 55, 1);
+  font-family: "DM Sans";
+  font-style: Bold;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -1.5px;
+}
+
+.paymentTextItem {
+  color: rgba(2, 7, 62, 1);
+  font-family: "DM Sans";
+  font-style: "Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0px;
+  width: 454px;
+  margin-top: 40px;
+}
+
+.paymentTextBtn {
+  border-radius: 50px;
+  background-color: rgba(31, 62, 118, 1);
+  padding: 15px 30px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "DM Sans";
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.16px;
+  border: none;
+  margin-top: 40px;
+  cursor: pointer;
+}

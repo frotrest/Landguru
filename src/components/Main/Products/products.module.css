@@ -1,0 +1,238 @@
+.products {
+  padding-top: 60px;
+  padding-bottom: 100px;
+  background: linear-gradient(rgba(30, 60, 114, 1), rgba(42, 82, 152, 1));
+}
+
+.productsContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productsContentPodTitle {
+  color: rgba(255, 255, 255, 1);
+  font-family: "DM Sans";
+  font-style: Bold;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.productsContentTitle {
+  color: rgba(255, 255, 255, 1);
+  font-family: "DM Sans";
+  font-style: Bold;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -1.5px;
+}
+
+.plans {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-top: 80px;
+}
+
+.planFree {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 70px 115px 50px 40px;
+  border-radius: 10px;
+  background: rgba(47, 83, 146, 1);
+  height: 750px;
+}
+
+.planFreeTitle {
+  color: rgba(255, 255, 255, 1);
+  font-family: "DM Sans";
+  font-style: Bold;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: -0.55px;
+}
+
+.planFreeSubTitle {
+  color: rgba(255, 255, 255, 1);
+  font-family: "DM Sans";
+  font-style: "Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  opacity: 0.7;
+  margin-top: 5px;
+}
+
+.planFreeFeatures {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 30px;
+  padding: 55px 0px 0px 0px;
+}
+
+.planFreeFeature {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.planFreeFeatureTextItem {
+  color: rgba(255, 255, 255, 1);
+  font-family: "DM Sans";
+  font-style: "Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  width: 290px;
+}
+
+.planFreeBtn {
+  border-radius: 50px;
+  background-color: white;
+  padding: 15px 40px;
+  color: rgba(47, 83, 146, 1);
+  font-family: "DM Sans";
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.16px;
+  border: none;
+  margin-top: 70px;
+  cursor: pointer;
+}
+
+.planPremium {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 1);
+  padding: 70px 115px 50px 40px;
+  height: 750px;
+}
+
+.firstCol {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+}
+
+.descriptionPlan {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.descriptionPlanRecommendation {
+  border-radius: 3px;
+  background-color: rgba(239, 158, 72, 1);
+  padding: 0px 10px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "DM Sans";
+  font-style: Bold;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.14px;
+}
+
+.descriptionPlanTitle {
+  color: rgba(15, 33, 55, 1);
+  font-family: "DM Sans";
+  font-style: Bold;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: -0.55px;
+}
+
+.descriptionPlanItem {
+  color: rgba(52, 61, 72, 1);
+  font-family: "DM Sans";
+  font-style: "Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+
+.pricePlan {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.pricePlanTitle {
+  color: rgba(52, 61, 72, 1);
+  font-family: "DM Sans";
+  font-style: "Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+
+.pricePlanSubTitle {
+  color: rgba(37, 203, 158, 1);
+  font-family: "DM Sans";
+  font-style: Bold;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.55px;
+}
+
+.planPremiumFeatures {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 55px 0px 0px 0px;
+}
+
+.planPremiumFeature {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.planPremiumFeatureTextItem {
+  color: #343d48;
+  font-family: "DM Sans";
+  font-style: "Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  width: 290px;
+}
+
+.planPremiumBtn {
+  margin-top: 70px;
+  border-radius: 50px;
+  background-color: rgba(31, 62, 118, 1);
+  padding: 15px 40px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "DM Sans";
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.16px;
+  cursor: pointer;
+  border: none;
+}
