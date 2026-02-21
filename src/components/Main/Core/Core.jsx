@@ -2,6 +2,7 @@ import { Component } from "react";
 import styles from "./core.module.css";
 import clsx from "clsx";
 import Container from "../../Container";
+import pictures from '@/assets/img/pictures.png';
 
 export default class Core extends Component {
   render() {
@@ -22,7 +23,7 @@ export default class Core extends Component {
             <button className={clsx(styles.coreTextBtn)}>Get Started</button>
           </div>
           <img
-            src="/src/img/pictures.png"
+            src={pictures}
             alt="pictures"
             className={clsx(styles.coreContentImg)}
           />

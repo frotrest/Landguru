@@ -2,6 +2,7 @@ import { Component } from "react";
 import styles from "../bottomheader.module.css";
 import clsx from "clsx";
 import { IoIosPlayCircle } from "react-icons/io";
+import mockup from '@/assets/img/mockup.png';
 
 export default class Hero extends Component {
   render() {
@@ -26,7 +27,7 @@ export default class Hero extends Component {
           </div>
         </div>
         <img
-          src="/src/img/mockup.png"
+          src={mockup}
           alt="mockup"
           className={clsx(styles.heroImg)}
         />
