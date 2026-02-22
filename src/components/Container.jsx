@@ -3,9 +3,9 @@ import "../index.css";
 
 export default class Container extends Component {
   render() {
-    const { children, className } = this.props;
+    const { children, className, dataAnimate } = this.props;
     return (
-      <div className={className ? `container ${className}` : `container`}>
+      <div className={className ? `container ${className}` : `container`} data-animate={dataAnimate}>
         {children}
       </div>
     );

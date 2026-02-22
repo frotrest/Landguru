@@ -9,7 +9,7 @@ export default class TopHeader extends Component {
   render() {
     return (
       <section className={clsx(styles.headerSection)}>
-        <Container className={clsx(styles.headerSectionContent)}>
+        <Container className={clsx(styles.headerSectionContent)} dataAnimate="fadeIn">
           <Logo />
           <NavBar />
           <button className={clsx(styles.headerSectionContentBtn)}>

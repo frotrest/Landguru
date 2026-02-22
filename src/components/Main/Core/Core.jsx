@@ -8,7 +8,7 @@ export default class Core extends Component {
   render() {
     return (
       <section className={clsx(styles.core)}>
-        <Container className={clsx(styles.coreContent)}>
+        <Container className={clsx(styles.coreContent)} dataAnimate="fadeInRight">
           <div className={clsx(styles.coreText)}>
             <h5 className={clsx(styles.coreTextPodTitle)}>Core features</h5>
             <h2 className={clsx(styles.coreTextTitle)}>

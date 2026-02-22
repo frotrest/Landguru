@@ -6,7 +6,7 @@ import clsx from "clsx";
 export default class NavBar extends Component {
   render() {
     return (
-      <nav className={clsx(styles.navBar)}>
+      <nav className={clsx(styles.navBar)} >
         <a href="#" className={clsx(styles.navBarItem)}>
           Home
         </a>

@@ -20,7 +20,10 @@ export default class Questions extends Component {
 
     return (
       <section className={clsx(styles.questions)}>
-        <Container className={clsx(styles.questionsContent)}>
+        <Container
+          className={clsx(styles.questionsContent)}
+          dataAnimate="fadeInUp"
+        >
           <h5 className={clsx(styles.questionsContentSubTitle)}>
             FREQUENT QUESTION
           </h5>
@@ -29,7 +32,6 @@ export default class Questions extends Component {
           </h2>
 
           <div className={clsx(styles.faqs)}>
-            {/* FAQ 1 */}
             <div className={clsx(styles.faqItem)}>
               <button
                 onClick={() => this.toggle(0)}
@@ -63,8 +65,6 @@ export default class Questions extends Component {
                 You can contact riders via the emergency hotline in the app.
               </p>
             </div>
-
-            {/* FAQ 2 */}
             <div className={clsx(styles.faqItem)}>
               <button
                 onClick={() => this.toggle(1)}

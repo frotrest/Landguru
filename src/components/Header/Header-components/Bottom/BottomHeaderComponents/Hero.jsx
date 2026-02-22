@@ -8,7 +8,7 @@ export default class Hero extends Component {
   render() {
     return (
       <div className={clsx(styles.hero)}>
-        <div className={styles.heroDescription}>
+        <div className={styles.heroDescription} data-animate="fadeInLeft">
           <h2 className={clsx(styles.heroDescriptionTitle)}>
             Experience your ultimate mobile application
           </h2>
@@ -30,6 +30,7 @@ export default class Hero extends Component {
           src={mockup}
           alt="mockup"
           className={clsx(styles.heroImg)}
+          data-animate="fadeInRight"
         />
       </div>
     );

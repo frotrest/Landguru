@@ -15,6 +15,7 @@ export default class BottomHeader extends Component {
             src={sponsor}
             alt="sponsor"
             className={clsx(styles.sponsors)}
+            data-animate="fadeInUp"
           />
         </Container>
       </section>

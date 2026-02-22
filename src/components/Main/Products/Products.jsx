@@ -9,7 +9,7 @@ export default class Products extends Component {
   render() {
     return (
       <section className={clsx(styles.products)}>
-        <Container className={clsx(styles.productsContent)}>
+        <Container className={clsx(styles.productsContent)} dataAnimate="fadeInLeft">
           <h5 className={clsx(styles.productsContentPodTitle)}>
             Whats the function
           </h5>

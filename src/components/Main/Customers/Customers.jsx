@@ -41,7 +41,7 @@ export default class Customers extends Component {
   render() {
     return (
       <section className={clsx(styles.customers)}>
-        <Container className={clsx(styles.customersContent)}>
+        <Container className={clsx(styles.customersContent)} dataAnimate="fadeInRight">
           <div className={clsx(styles.titleSect)}>
             <h5 className={clsx(styles.customersContentPodTitle)}>
               Testimunial
@@ -65,6 +65,7 @@ export default class Customers extends Component {
           speed={300}
           centeredSlides={true}
           slidesPerView={4}
+          data-animate="fadeInLeft"
         >
           {customers.map((item, index) => (
             <SwiperSlide key={index} className={clsx(styles.customerCard)}>
