@@ -10,7 +10,7 @@ export default class Results extends Component {
   render() {
     return (
       <section className={clsx(styles.results)}>
-        <Container className={clsx(styles.resultsContent)}>
+        <Container className={clsx(styles.resultsContent)} dataAnimate="fadeInRight">
           <img
             src={results}
             alt="results"

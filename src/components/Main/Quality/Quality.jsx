@@ -52,7 +52,7 @@ export default class Quality extends Component {
   render() {
     return (
       <section className={clsx(styles.quality)}>
-        <Container className={clsx(styles.qualityContent)}>
+        <Container className={clsx(styles.qualityContent)} dataAnimate="fadeInLeft">
           <h5 className={clsx(styles.qualityContentPodTitle)}>
             Quality features
           </h5>

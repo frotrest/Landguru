@@ -7,7 +7,7 @@ export default class Footer extends Component {
   render() {
     return (
       <footer className={clsx(styles.footer)}>
-        <Container className={clsx(styles.footerContent)}>
+        <Container className={clsx(styles.footerContent)} dataAnimate="fadeIn">
           <div className={clsx(styles.category)}>
             <h5 className={clsx(styles.categoryTitle)}>About Us</h5>
             <ul className={clsx(styles.categoryList)}>

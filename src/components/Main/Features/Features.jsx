@@ -8,7 +8,7 @@ export default class Features extends Component {
   render() {
     return (
       <section className={clsx(styles.features)}>
-        <Container className={clsx(styles.featuresContent)}>
+        <Container className={clsx(styles.featuresContent)} dataAnimate="fadeInLeft">
           <h5 className={clsx(styles.featuresContentPodTitle)}>
             Quality features
           </h5>

@@ -30,7 +30,7 @@ export default class Tutorial extends Component {
   render() {
     return (
       <section className={clsx(styles.tutorial)}>
-        <Container className={clsx(styles.tutorialContent)}>
+        <Container className={clsx(styles.tutorialContent)} dataAnimate="fadeInLeft">
           <h5 className={clsx(styles.tutorialContentPodTitle)}>
             Whats the function
           </h5>

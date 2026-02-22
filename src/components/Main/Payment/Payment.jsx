@@ -8,7 +8,7 @@ export default class Payment extends Component {
   render() {
     return (
       <section className={clsx(styles.payment)}>
-        <Container className={clsx(styles.paymentContent)}>
+        <Container className={clsx(styles.paymentContent)} dataAnimate="fadeInRight">
           <img
             src={payment}
             alt="payment"
