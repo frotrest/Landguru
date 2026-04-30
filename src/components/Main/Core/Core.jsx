@@ -26,6 +26,7 @@ export default class Core extends Component {
             src={pictures}
             alt="pictures"
             className={clsx(styles.coreContentImg)}
+            loading='lazy'
           />
         </Container>
       </section>
