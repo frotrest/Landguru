@@ -9,10 +9,10 @@ import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import { FaStar } from "react-icons/fa6";
 import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
-import customerOne from '@/assets/img/first-customer.png';
-import customerTwo from '@/assets/img/second-customer.png';
-import customerThird from '@/assets/img/third-customer.png';
-import customerFourth from '@/assets/img/fourth-customer.png';
+import customerOne from '@/assets/img/first-customer.webp';
+import customerTwo from '@/assets/img/second-customer.webp';
+import customerThird from '@/assets/img/third-customer.webp';
+import customerFourth from '@/assets/img/fourth-customer.webp';
 
 const customers = [
   {

@@ -2,7 +2,7 @@ import { Component } from "react";
 import styles from "./payment.module.css";
 import clsx from "clsx";
 import Container from "../../Container";
-import payment from '@/assets/img/payment.png';
+import payment from '@/assets/img/payment.webp';
 
 export default class Payment extends Component {
   render() {

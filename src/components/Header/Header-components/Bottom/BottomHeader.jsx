@@ -3,7 +3,7 @@ import Container from "../../../Container";
 import styles from "./bottomheader.module.css";
 import clsx from "clsx";
 import Hero from "./BottomHeaderComponents/Hero";
-import sponsor from '@/assets/img/sponsor.png';
+import sponsor from '@/assets/img/sponsor.webp';
 
 export default class BottomHeader extends Component {
   render() {

@@ -2,7 +2,7 @@ import { Component } from "react";
 import styles from "../bottomheader.module.css";
 import clsx from "clsx";
 import { IoIosPlayCircle } from "react-icons/io";
-import mockup from '@/assets/img/mockup.png';
+import mockup from '@/assets/img/mockup.webp';
 
 export default class Hero extends Component {
   render() {
