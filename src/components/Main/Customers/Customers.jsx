@@ -90,6 +90,7 @@ export default class Customers extends Component {
                     src={item.avatar}
                     alt="customer-avatar"
                     className={clsx(styles.customerAvatar)}
+                    loading='lazy'
                   />
                   <div className={clsx(styles.customerText)}>
                     <h5 className={clsx(styles.customerTextTitle)}>
