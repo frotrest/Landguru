@@ -2,7 +2,7 @@ import { Component } from "react";
 import styles from "./core.module.css";
 import clsx from "clsx";
 import Container from "../../Container";
-import pictures from '@/assets/img/pictures.png';
+import pictures from '@/assets/img/pictures.webp';
 
 export default class Core extends Component {
   render() {

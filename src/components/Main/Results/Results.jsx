@@ -4,7 +4,7 @@ import clsx from "clsx";
 import Container from "../../Container";
 import { BsFillBagCheckFill } from "react-icons/bs";
 import { FaChessKing } from "react-icons/fa";
-import results from '@/assets/img/results.png'
+import results from '@/assets/img/results.webp'
 
 export default class Results extends Component {
   render() {
