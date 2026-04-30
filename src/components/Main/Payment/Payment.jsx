@@ -13,6 +13,7 @@ export default class Payment extends Component {
             src={payment}
             alt="payment"
             className={clsx(styles.paymentImg)}
+            loading='lazy'
           />
           <div className={clsx(styles.paymentText)}>
             <h5 className={clsx(styles.paymentTextPodTitle)}>Core features</h5>
