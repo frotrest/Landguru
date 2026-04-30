@@ -31,6 +31,7 @@ export default class Hero extends Component {
           alt="mockup"
           className={clsx(styles.heroImg)}
           data-animate="fadeInRight"
+          fetchPriority="high"
         />
       </div>
     );
